@@ -1,0 +1,25 @@
+// Application state management
+export const state = {
+    isVRSupported: false,
+    isInVR: false,
+    currentMap: null,
+    currentDifficulty: null,
+    isPlaying: false,
+    audio: null,
+    audioContext: null,
+    audioSource: null,
+    startTime: 0,
+    beatLength: 0,
+    renderer: null,
+    scene: null,
+    camera: null,
+    controllers: [],
+    notes: [],
+    obstacles: [],
+    extractedFiles: null,
+    noteObjects: [],
+    obstacleObjects: [],
+    playerArea: null,
+    noteSpeed: 4,
+};
+
